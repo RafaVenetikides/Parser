@@ -1,0 +1,70 @@
+FOLLOW(S)
+	•	S é o símbolo inicial → pode ser seguido por nada ($)
+⇒ FOLLOW(S) = { $ }
+
+FOLLOW(Expr)
+	•	Aparece em Operand → Expr
+	•	Aparece em S → Expr
+
+→ O que pode vir depois de Expr?
+	1.	De S → Expr, temos FOLLOW(S) → então:
+FOLLOW(Expr) ⊇ FOLLOW(S) = { $ }
+	2.	De Operand → Expr, vamos ver onde Operand aparece:
+
+FOLLOW(Operand)
+
+Operand aparece em:
+	1.	RPN → Operand Operand Operator
+	•	O primeiro Operand é seguido por outro Operand
+⇒ FOLLOW(Operand) ⊇ FIRST(Operand) = { '(', NUMBER, 'MEM' }
+	•	O segundo Operand é seguido por Operator
+⇒ FOLLOW(Operand) ⊇ FIRST(Operator) = { '+', '-', '*', '/', '|', '%', '^' }
+	2.	RPN → Operand OperatorUnary
+	•	Operand é seguido por OperatorUnary
+⇒ FOLLOW(Operand) ⊇ FIRST(OperatorUnary) = { 'RES', 'MEM', 'IF', 'THEN', 'ELSE', 'FOR', 'DO' }
+
+FOLLOW(RPN)
+
+RPN aparece dentro de:
+Expr → '(' RPN ')'
+Ou seja, depois de RPN vem ')'
+
+⇒ FOLLOW(RPN) = { ‘)’ }
+
+FOLLOW(Operator)
+Aparece em:
+    RPN → Operand Operand Operator
+
+Operator é o último símbolo da produção.
+Então, o que pode vir depois de Operator é o que pode vir depois de RPN.
+Expr → '(' RPN ')'
+
+FOLLOW(Operator) ⊇ FOLLOW(RPN) = { ')' }
+
+FOLLOW(Operator) = { ')' }
+
+FOLLOW(OperatorUnary)
+
+Onde OperatorUnary aparece:
+
+RPN → Operand OperatorUnary
+
+	•	OperatorUnary também está no final da produção
+	•	Então, novamente, tudo que vem depois de RPN também vale aqui
+
+Expr → '(' RPN ')'
+→ FOLLOW(RPN) = { ')' }
+
+FOLLOW(OperatorUnary) = FOLLOW(RPN) = { ')' }
+
+FOLLOW(OperatorUnary) = { ')' }
+
+SETS:
+
+    FOLLOW(S) → { $ }
+    FOLLOW(Expr) → {  $, (, NUMBER, +, -, *, /, |, %, ^, RES, MEM, IF, THEN, ELSE, FOR, DO }
+    FOLLOW(RPN) → { ) }
+    FOLLOW(RPN') → { ) }
+    FOLLOW(Operand) → { (, NUMBER, +, -, *, /, |, %, ^, RES, MEM, IF, THEN, ELSE, FOR, DO }
+    FOLLOW(Operator) → { ) }
+    FOLLOW(OperatorUnary) → { ) }

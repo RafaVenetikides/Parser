@@ -1,0 +1,35 @@
+S → Expr → '(' RPN ')'
+⇒ FIRST(S) = { '(' }
+
+Expr → '(' RPN ')'
+⇒ FIRST(Expr) = { '(' }
+
+RPN → Operand Operand Operator
+        | Operand OperatorUnary
+
+→ Começa com Operand → que pode começar com '(' ou NUMBER ou 'MEM'
+
+⇒ FIRST(RPN) = FIRST(Operand)
+⇒ FIRST(RPN) = { '(', NUMBER, 'MEM' }
+
+Operand → Expr | NUMBER | 'MEM'
+
+→ Expr começa com '('
+
+⇒ FIRST(Operand) = { '(', NUMBER, 'MEM' }
+
+Operator → '+' | '-' | '*' | '/' | '|' | '%' | '^'
+⇒ FIRST(Operator) = { '+', '-', '*', '/', '|', '%', '^' }
+
+OperatorUnary → 'RES' | 'MEM' | 'IF' | 'THEN' | 'ELSE' | 'FOR' | 'DO'
+⇒ FIRST(OperatorUnary) = { 'RES', 'MEM', 'IF', 'THEN', 'ELSE', 'FOR', 'DO' }
+
+SETS:
+
+    FIRST(S) → { ( }
+    FIRST(Expr) → { ( }
+    FIRST(RPN) → { (, NUMBER, MEM}
+    FIRST(RPN') → {(, NUMBER, MEM, RES, IF, THEN, ELSE, FOR, DO}
+    FIRST(Operand) → { (, NUMBER}
+    FIRST(Operator) → {+, -, *, /, |, %, ^}
+    FIRST(OperatorUnary) → {RES, MEM, IF, THEN, ELSE, FOR, DO}

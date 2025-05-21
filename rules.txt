@@ -1,0 +1,13 @@
+S           → Expr
+
+Expr        → '(' RPN ')'
+
+RPN → Operand RPN' | 'MEM'
+
+RPN' → Operand Operator | OperatorUnary
+
+Operand     → Expr | NUMBER
+
+Operator    → '+' | '-' | '*' | '/' | '|' | '%' | '^'
+
+OperatorUnary → 'RES' | 'MEM' | 'IF' | 'THEN' | 'ELSE' | 'FOR' | 'DO'
