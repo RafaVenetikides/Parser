@@ -1,13 +1,13 @@
-S           → Expr
+S → Expr
 
-Expr        → '(' RPN ')'
+Expr → ( RPNExpr )
 
-RPN → Operand RPN' | 'MEM'
+RPNExpr → Operand RPNExprPrime | MEM
 
-RPN' → Operand Operator | OperatorUnary
+RPNExprPrime → Operand Operator | OperatorUnary | ε
 
-Operand     → Expr | NUMBER
+Operand → Expr | NUMBER
 
-Operator    → '+' | '-' | '*' | '/' | '|' | '%' | '^'
+Operator → OPERATOR
 
-OperatorUnary → 'RES' | 'MEM' | 'IF' | 'THEN' | 'ELSE' | 'FOR' | 'DO'
+OperatorUnary → MEM | RES | IF | THEN | ELSE | FOR | DO

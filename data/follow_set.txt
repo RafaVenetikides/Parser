@@ -61,10 +61,10 @@ FOLLOW(OperatorUnary) = { ')' }
 
 SETS:
 
-    FOLLOW(S) → { $ }
-    FOLLOW(Expr) → {  $, (, NUMBER, +, -, *, /, |, %, ^, RES, MEM, IF, THEN, ELSE, FOR, DO }
-    FOLLOW(RPN) → { ) }
-    FOLLOW(RPN') → { ) }
-    FOLLOW(Operand) → { (, NUMBER, +, -, *, /, |, %, ^, RES, MEM, IF, THEN, ELSE, FOR, DO }
-    FOLLOW(Operator) → { ) }
-    FOLLOW(OperatorUnary) → { ) }
+    FOLLOW(S) = { $ }
+    FOLLOW(Expr) = { ), $, OPERATOR }
+    FOLLOW(RPNExpr) = { ) }
+    FOLLOW(RPNExprPrime) = { ) }
+    FOLLOW(Operand) = { (, NUMBER, MEM, RES, IF, THEN, ELSE, FOR, DO, ) }
+    FOLLOW(Operator) = { ) }
+    FOLLOW(OperatorUnary) = { ) }

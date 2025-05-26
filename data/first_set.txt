@@ -26,10 +26,10 @@ OperatorUnary → 'RES' | 'MEM' | 'IF' | 'THEN' | 'ELSE' | 'FOR' | 'DO'
 
 SETS:
 
-    FIRST(S) → { ( }
-    FIRST(Expr) → { ( }
-    FIRST(RPN) → { (, NUMBER, MEM}
-    FIRST(RPN') → {(, NUMBER, MEM, RES, IF, THEN, ELSE, FOR, DO}
-    FIRST(Operand) → { (, NUMBER}
-    FIRST(Operator) → {+, -, *, /, |, %, ^}
-    FIRST(OperatorUnary) → {RES, MEM, IF, THEN, ELSE, FOR, DO}
+    FIRST(S) = { ( }
+    FIRST(Expr) = { ( }
+    FIRST(RPNExpr) = { (, NUMBER, MEM }
+    FIRST(RPNExprPrime) = { (, NUMBER, MEM, RES, IF, THEN, ELSE, FOR, DO, ε }
+    FIRST(Operand) = { (, NUMBER }
+    FIRST(Operator) = { OPERATOR }
+    FIRST(OperatorUnary) = { MEM, RES, IF, THEN, ELSE, FOR, DO }
