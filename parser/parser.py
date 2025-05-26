@@ -1,7 +1,6 @@
-from node import ASTNode
-from reader import load_tokens
-from table import ll1_table
-from parser_token import Token
+from .node import ASTNode
+from .table import ll1_table
+from .parser_token import Token
 
 def parse(tokens):
     stack = ['$', 'S']
@@ -11,25 +10,38 @@ def parse(tokens):
     current_token = tokens[pos]
 
     root = ASTNode('S')
-
     node_stack = [root]
+
+    TERMINALS = {
+        'OPEN_PAREN', 'CLOSE_PAREN', 'NUMBER',
+        'MEM', 'OPERATOR', 'RES', 'IF', 'THEN',
+        'ELSE', 'FOR', 'DO'
+    }
 
     while stack:
         top = stack.pop()
-        current_node = node_stack.pop()
 
         if top == '$' and current_token.type == '$':
-            print("Sucessfully pased line")
+            print("Successfully parsed line")
             return root
 
-        elif top in ['OPEN_PAREN', 'CLOSE_PAREN', 'NUMBER', 'MEM', 'OPERATOR', 'RES', 'IF', 'THEN', 'ELSE', 'FOR', 'DO']:
+        if not node_stack:
+            raise SyntaxError(
+                f"Internal parser error: no AST node to attach symbol {top}"
+            )
+        current_node = node_stack.pop()
+
+        if top in TERMINALS:
             if top == current_token.type:
-                leaf = ASTNode('TOKEN', current_token.value)
+                leaf = ASTNode(top, current_token.value)
                 current_node.children.append(leaf)
                 pos += 1
                 current_token = tokens[pos]
             else:
-                raise SyntaxError(f"Syntax error: expected {top}, found {current_token.type} (current: {current_token.value})")
+                raise SyntaxError(
+                    f"Syntax error: expected {top}, found {current_token.type} "
+                    f"(value={current_token.value})"
+                )
 
         elif (top, current_token.type) in ll1_table:
             production = ll1_table[(top, current_token.type)]
@@ -42,6 +54,9 @@ def parse(tokens):
             current_node.children.extend(children)
 
         else:
-            raise SyntaxError(f"Syntax Error: expected {top}, found {current_token.type} (current: {current_token.value})")
+            raise SyntaxError(
+                f"Syntax error: no rule for ({top}, {current_token.type}) "
+                f"(value={current_token.value})"
+            )
 
-    return root
+    raise SyntaxError("Syntax error: incomplete parse, input not fully consumed")
