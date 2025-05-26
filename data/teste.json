@@ -1,0 +1,86 @@
+[
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 1,
+    "column": 1
+  },
+  {
+    "value": "1",
+    "type": "NUMBER",
+    "line": 1,
+    "column": 2
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 1,
+    "column": 4
+  },
+  {
+    "value": "MEM",
+    "type": "MEM",
+    "line": 1,
+    "column": 5
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 1,
+    "column": 8
+  },
+  {
+    "value": "+",
+    "type": "OPERATOR",
+    "line": 1,
+    "column": 10
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 1,
+    "column": 11
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 2,
+    "column": 1
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 2,
+    "column": 2
+  },
+  {
+    "value": "MEM",
+    "type": "MEM",
+    "line": 2,
+    "column": 3
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 2,
+    "column": 6
+  },
+  {
+    "value": "1",
+    "type": "NUMBER",
+    "line": 2,
+    "column": 8
+  },
+  {
+    "value": "+",
+    "type": "OPERATOR",
+    "line": 2,
+    "column": 10
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 2,
+    "column": 11
+  }
+]

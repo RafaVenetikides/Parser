@@ -13,5 +13,6 @@ if __name__ == "__main__":
         try:
             ast = parse(token_list.copy())
             print(ast)
+            ast.to_graphviz(filename=f"out/graphs/ast_line_{line_no}", format="png")
         except SyntaxError as e:
             print(f"Erro na linha {line_no}: {e}")
