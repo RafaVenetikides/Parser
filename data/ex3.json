@@ -1,0 +1,902 @@
+[
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 1,
+    "column": 1
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 1,
+    "column": 2
+  },
+  {
+    "value": "3",
+    "type": "NUMBER",
+    "line": 1,
+    "column": 3
+  },
+  {
+    "value": "7",
+    "type": "NUMBER",
+    "line": 1,
+    "column": 5
+  },
+  {
+    "value": "+",
+    "type": "OPERATOR",
+    "line": 1,
+    "column": 7
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 1,
+    "column": 8
+  },
+  {
+    "value": "5",
+    "type": "NUMBER",
+    "line": 1,
+    "column": 10
+  },
+  {
+    "value": "*",
+    "type": "OPERATOR",
+    "line": 1,
+    "column": 12
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 1,
+    "column": 13
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 2,
+    "column": 1
+  },
+  {
+    "value": "3",
+    "type": "NUMBER",
+    "line": 2,
+    "column": 2
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 2,
+    "column": 4
+  },
+  {
+    "value": "7",
+    "type": "NUMBER",
+    "line": 2,
+    "column": 5
+  },
+  {
+    "value": "2",
+    "type": "NUMBER",
+    "line": 2,
+    "column": 7
+  },
+  {
+    "value": "-",
+    "type": "OPERATOR",
+    "line": 2,
+    "column": 9
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 2,
+    "column": 10
+  },
+  {
+    "value": "+",
+    "type": "OPERATOR",
+    "line": 2,
+    "column": 12
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 2,
+    "column": 13
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 3,
+    "column": 1
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 3,
+    "column": 2
+  },
+  {
+    "value": "12",
+    "type": "NUMBER",
+    "line": 3,
+    "column": 3
+  },
+  {
+    "value": "4",
+    "type": "NUMBER",
+    "line": 3,
+    "column": 6
+  },
+  {
+    "value": "-",
+    "type": "OPERATOR",
+    "line": 3,
+    "column": 8
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 3,
+    "column": 9
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 3,
+    "column": 11
+  },
+  {
+    "value": "2",
+    "type": "NUMBER",
+    "line": 3,
+    "column": 12
+  },
+  {
+    "value": "3",
+    "type": "NUMBER",
+    "line": 3,
+    "column": 14
+  },
+  {
+    "value": "*",
+    "type": "OPERATOR",
+    "line": 3,
+    "column": 16
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 3,
+    "column": 17
+  },
+  {
+    "value": "+",
+    "type": "OPERATOR",
+    "line": 3,
+    "column": 19
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 3,
+    "column": 20
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 4,
+    "column": 1
+  },
+  {
+    "value": "6",
+    "type": "NUMBER",
+    "line": 4,
+    "column": 2
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 4,
+    "column": 4
+  },
+  {
+    "value": "8",
+    "type": "NUMBER",
+    "line": 4,
+    "column": 5
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 4,
+    "column": 7
+  },
+  {
+    "value": "2",
+    "type": "NUMBER",
+    "line": 4,
+    "column": 8
+  },
+  {
+    "value": "1",
+    "type": "NUMBER",
+    "line": 4,
+    "column": 10
+  },
+  {
+    "value": "+",
+    "type": "OPERATOR",
+    "line": 4,
+    "column": 12
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 4,
+    "column": 13
+  },
+  {
+    "value": "*",
+    "type": "OPERATOR",
+    "line": 4,
+    "column": 15
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 4,
+    "column": 16
+  },
+  {
+    "value": "-",
+    "type": "OPERATOR",
+    "line": 4,
+    "column": 18
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 4,
+    "column": 19
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 5,
+    "column": 1
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 5,
+    "column": 2
+  },
+  {
+    "value": "20",
+    "type": "NUMBER",
+    "line": 5,
+    "column": 3
+  },
+  {
+    "value": "5",
+    "type": "NUMBER",
+    "line": 5,
+    "column": 6
+  },
+  {
+    "value": "/",
+    "type": "OPERATOR",
+    "line": 5,
+    "column": 8
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 5,
+    "column": 9
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 5,
+    "column": 11
+  },
+  {
+    "value": "4",
+    "type": "NUMBER",
+    "line": 5,
+    "column": 12
+  },
+  {
+    "value": "2",
+    "type": "NUMBER",
+    "line": 5,
+    "column": 14
+  },
+  {
+    "value": "^",
+    "type": "OPERATOR",
+    "line": 5,
+    "column": 16
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 5,
+    "column": 17
+  },
+  {
+    "value": "+",
+    "type": "OPERATOR",
+    "line": 5,
+    "column": 19
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 5,
+    "column": 20
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 6,
+    "column": 1
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 6,
+    "column": 2
+  },
+  {
+    "value": "9",
+    "type": "NUMBER",
+    "line": 6,
+    "column": 3
+  },
+  {
+    "value": "2",
+    "type": "NUMBER",
+    "line": 6,
+    "column": 5
+  },
+  {
+    "value": "%",
+    "type": "OPERATOR",
+    "line": 6,
+    "column": 7
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 6,
+    "column": 8
+  },
+  {
+    "value": "3",
+    "type": "NUMBER",
+    "line": 6,
+    "column": 10
+  },
+  {
+    "value": "7",
+    "type": "NUMBER",
+    "line": 6,
+    "column": 12
+  },
+  {
+    "value": "+",
+    "type": "OPERATOR",
+    "line": 6,
+    "column": 14
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 6,
+    "column": 15
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 7,
+    "column": 1
+  },
+  {
+    "value": "2",
+    "type": "NUMBER",
+    "line": 7,
+    "column": 2
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 7,
+    "column": 4
+  },
+  {
+    "value": "3",
+    "type": "NUMBER",
+    "line": 7,
+    "column": 5
+  },
+  {
+    "value": "^",
+    "type": "OPERATOR",
+    "line": 7,
+    "column": 7
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 7,
+    "column": 8
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 7,
+    "column": 10
+  },
+  {
+    "value": "4",
+    "type": "NUMBER",
+    "line": 7,
+    "column": 11
+  },
+  {
+    "value": "1",
+    "type": "NUMBER",
+    "line": 7,
+    "column": 13
+  },
+  {
+    "value": "+",
+    "type": "OPERATOR",
+    "line": 7,
+    "column": 15
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 7,
+    "column": 16
+  },
+  {
+    "value": "*",
+    "type": "OPERATOR",
+    "line": 7,
+    "column": 18
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 7,
+    "column": 19
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 8,
+    "column": 1
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 8,
+    "column": 2
+  },
+  {
+    "value": "3",
+    "type": "NUMBER",
+    "line": 8,
+    "column": 3
+  },
+  {
+    "value": "7",
+    "type": "NUMBER",
+    "line": 8,
+    "column": 5
+  },
+  {
+    "value": "+",
+    "type": "OPERATOR",
+    "line": 8,
+    "column": 7
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 8,
+    "column": 8
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 8,
+    "column": 10
+  },
+  {
+    "value": "6",
+    "type": "NUMBER",
+    "line": 8,
+    "column": 11
+  },
+  {
+    "value": "8",
+    "type": "NUMBER",
+    "line": 8,
+    "column": 13
+  },
+  {
+    "value": "*",
+    "type": "OPERATOR",
+    "line": 8,
+    "column": 15
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 8,
+    "column": 16
+  },
+  {
+    "value": "/",
+    "type": "OPERATOR",
+    "line": 8,
+    "column": 18
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 8,
+    "column": 19
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 9,
+    "column": 1
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 9,
+    "column": 2
+  },
+  {
+    "value": "12",
+    "type": "NUMBER",
+    "line": 9,
+    "column": 3
+  },
+  {
+    "value": "4",
+    "type": "NUMBER",
+    "line": 9,
+    "column": 6
+  },
+  {
+    "value": "-",
+    "type": "OPERATOR",
+    "line": 9,
+    "column": 8
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 9,
+    "column": 9
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 9,
+    "column": 11
+  },
+  {
+    "value": "20",
+    "type": "NUMBER",
+    "line": 9,
+    "column": 12
+  },
+  {
+    "value": "5",
+    "type": "NUMBER",
+    "line": 9,
+    "column": 15
+  },
+  {
+    "value": "/",
+    "type": "OPERATOR",
+    "line": 9,
+    "column": 17
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 9,
+    "column": 18
+  },
+  {
+    "value": "%",
+    "type": "OPERATOR",
+    "line": 9,
+    "column": 20
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 9,
+    "column": 21
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 10,
+    "column": 1
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 10,
+    "column": 2
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 10,
+    "column": 3
+  },
+  {
+    "value": "2",
+    "type": "NUMBER",
+    "line": 10,
+    "column": 4
+  },
+  {
+    "value": "3",
+    "type": "NUMBER",
+    "line": 10,
+    "column": 6
+  },
+  {
+    "value": "^",
+    "type": "OPERATOR",
+    "line": 10,
+    "column": 8
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 10,
+    "column": 9
+  },
+  {
+    "value": "5",
+    "type": "NUMBER",
+    "line": 10,
+    "column": 11
+  },
+  {
+    "value": "-",
+    "type": "OPERATOR",
+    "line": 10,
+    "column": 13
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 10,
+    "column": 14
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 10,
+    "column": 16
+  },
+  {
+    "value": "8",
+    "type": "NUMBER",
+    "line": 10,
+    "column": 17
+  },
+  {
+    "value": "2",
+    "type": "NUMBER",
+    "line": 10,
+    "column": 19
+  },
+  {
+    "value": "*",
+    "type": "OPERATOR",
+    "line": 10,
+    "column": 21
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 10,
+    "column": 22
+  },
+  {
+    "value": "+",
+    "type": "OPERATOR",
+    "line": 10,
+    "column": 24
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 10,
+    "column": 25
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 11,
+    "column": 1
+  },
+  {
+    "value": "1",
+    "type": "NUMBER",
+    "line": 11,
+    "column": 2
+  },
+  {
+    "value": "2",
+    "type": "NUMBER",
+    "line": 11,
+    "column": 4
+  },
+  {
+    "value": "FOR",
+    "type": "FOR",
+    "line": 11,
+    "column": 6
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 11,
+    "column": 9
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 12,
+    "column": 1
+  },
+  {
+    "value": "4",
+    "type": "NUMBER",
+    "line": 12,
+    "column": 2
+  },
+  {
+    "value": "5",
+    "type": "NUMBER",
+    "line": 12,
+    "column": 4
+  },
+  {
+    "value": "-",
+    "type": "OPERATOR",
+    "line": 12,
+    "column": 6
+  },
+  {
+    "value": "DO",
+    "type": "DO",
+    "line": 12,
+    "column": 8
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 12,
+    "column": 10
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 13,
+    "column": 1
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 13,
+    "column": 2
+  },
+  {
+    "value": "1",
+    "type": "NUMBER",
+    "line": 13,
+    "column": 3
+  },
+  {
+    "value": "1",
+    "type": "NUMBER",
+    "line": 13,
+    "column": 5
+  },
+  {
+    "value": "+",
+    "type": "OPERATOR",
+    "line": 13,
+    "column": 7
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 13,
+    "column": 8
+  },
+  {
+    "value": "FOR",
+    "type": "FOR",
+    "line": 13,
+    "column": 10
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 13,
+    "column": 13
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 14,
+    "column": 1
+  },
+  {
+    "value": "(",
+    "type": "OPEN_PAREN",
+    "line": 14,
+    "column": 2
+  },
+  {
+    "value": "2",
+    "type": "NUMBER",
+    "line": 14,
+    "column": 3
+  },
+  {
+    "value": "3",
+    "type": "NUMBER",
+    "line": 14,
+    "column": 5
+  },
+  {
+    "value": "*",
+    "type": "OPERATOR",
+    "line": 14,
+    "column": 7
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 14,
+    "column": 8
+  },
+  {
+    "value": "DO",
+    "type": "DO",
+    "line": 14,
+    "column": 10
+  },
+  {
+    "value": ")",
+    "type": "CLOSE_PAREN",
+    "line": 14,
+    "column": 12
+  }
+]
