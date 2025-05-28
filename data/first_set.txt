@@ -29,7 +29,8 @@ SETS:
     FIRST(S) = { ( }
     FIRST(Expr) = { ( }
     FIRST(RPNExpr) = { (, NUMBER, MEM }
-    FIRST(RPNExprPrime) = { (, NUMBER, MEM, RES, IF, THEN, ELSE, FOR, DO, ε }
+    FIRST(RPNExprPrime) = { (, NUMBER, MEM, RES, IF, THEN, ELSE, FOR, DO }
     FIRST(Operand) = { (, NUMBER }
     FIRST(Operator) = { OPERATOR }
     FIRST(OperatorUnary) = { MEM, RES, IF, THEN, ELSE, FOR, DO }
+    FIRST(MEM_Operand) = { MEM }

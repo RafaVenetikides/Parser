@@ -4,7 +4,7 @@ ll1_table = {
 
     ('RPNExpr', 'OPEN_PAREN'): ['Operand', 'RPNExprPrime'],
     ('RPNExpr', 'NUMBER'): ['Operand', 'RPNExprPrime'],
-    ('RPNExpr', 'MEM'): ['OperatorUnary'],
+    ('RPNExpr', 'MEM'): ['MEM_Operand'],
 
     ('RPNExprPrime', 'OPEN_PAREN'): ['Operand', 'Operator'],
     ('RPNExprPrime', 'NUMBER'): ['Operand', 'Operator'],
@@ -15,8 +15,6 @@ ll1_table = {
     ('RPNExprPrime', 'ELSE'): ['OperatorUnary'],
     ('RPNExprPrime', 'FOR'): ['OperatorUnary'],
     ('RPNExprPrime', 'DO'): ['OperatorUnary'],
-    ('RPNExprPrime', 'CLOSE_PAREN'): [],
-    ('RPNExprPrime', '$'): [],
 
     ('Operand', 'OPEN_PAREN'): ['Expr'],
     ('Operand', 'NUMBER'): ['NUMBER'],
@@ -29,4 +27,6 @@ ll1_table = {
     ('OperatorUnary', 'ELSE'): ['ELSE'],
     ('OperatorUnary', 'FOR'): ['FOR'],
     ('OperatorUnary', 'DO'): ['DO'],
+
+    ('MEM_Operand', 'MEM'): ['MEM'],
 }

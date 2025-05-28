@@ -62,7 +62,7 @@ FOLLOW(OperatorUnary) = { ')' }
 SETS:
 
     FOLLOW(S) = { $ }
-    FOLLOW(Expr) = { ), $, OPERATOR }
+    FOLLOW(Expr) = { $, ‘(’, NUMBER, MEM, RES, IF, THEN, ELSE, FOR, DO, OPERATOR }
     FOLLOW(RPNExpr) = { ) }
     FOLLOW(RPNExprPrime) = { ) }
     FOLLOW(Operand) = { (, NUMBER, MEM, RES, IF, THEN, ELSE, FOR, DO, ) }

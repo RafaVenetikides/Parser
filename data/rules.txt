@@ -2,12 +2,14 @@ S → Expr
 
 Expr → ( RPNExpr )
 
-RPNExpr → Operand RPNExprPrime | MEM
+RPNExpr → Operand RPNExprPrime | MEM_Operand
 
-RPNExprPrime → Operand Operator | OperatorUnary | ε
+RPNExprPrime → Operand Operator | OperatorUnary
 
 Operand → Expr | NUMBER
 
 Operator → OPERATOR
 
 OperatorUnary → MEM | RES | IF | THEN | ELSE | FOR | DO
+
+MEM_Operand → MEM
